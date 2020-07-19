@@ -13,7 +13,7 @@ class EmailAddressParser
     csv_emails.split.collect do |email|
       email.split(",")
     end
-    csv_emails.flatten.uniq
+    .flatten.uniq
   end
   
 end
