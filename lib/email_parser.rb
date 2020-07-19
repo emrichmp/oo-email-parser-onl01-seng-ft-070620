@@ -13,7 +13,7 @@ class EmailAddressParser
     csv_emails.split.collect do |email|
       email.split(",")
     end
-    e
+    
   end
   
 end
